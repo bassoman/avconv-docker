@@ -14,4 +14,4 @@ RUN useradd -u 1000 -ms /bin/bash docker
 USER docker
 ENV HOME /home/docker
 
-CMD ["/usr/bin"]
+CMD ["/usr/bin/avconv"]
